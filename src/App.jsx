@@ -80,7 +80,7 @@ const Navbar = () => {
         <a href="#experience" className="nav-link">Experience</a>
         <a href="#projects" className="nav-link">Work</a>
         <a href="#contact" className="nav-link">Contact</a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{
+        <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer" style={{
           color: 'var(--accent-green)',
           border: '1px solid var(--accent-green)',
           padding: '5px 15px',
